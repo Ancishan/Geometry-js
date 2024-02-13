@@ -16,7 +16,7 @@
         <div class="flex flex-col md:flex-row">
             <!-- shape card container -->
             <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3" >
-                <!-- trainagle card -->
+                <!-- triangle card -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure><img src="./images/triangle.png" alt="Shoes" /></figure>
                     <div class="card-body text-center">
@@ -52,6 +52,11 @@
                       <input id="rectangle-lenght" class="w-24 text-xl p-2 rounded-sm" type="text" placeholder="l">
                       <span>cm</span>
                       </div>
+                      <!-- show the value in area -->
+                      <div>
+                        <p class="tet-2xl">Area: <span id="rectangle-area"></span><span>cm <sup>2</sup></span></p>
+                      </div>
+
                       <div class="card-actions justify-center">
                         <button onclick=" calculateRectangleArea()" class="btn btn-primary w-full">calculate</button>
                       </div>
